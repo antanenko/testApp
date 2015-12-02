@@ -27,7 +27,7 @@ __published:	// IDE-managed Components
 	void __fastcall Button2Click(TObject *Sender);
 	void __fastcall Button3Click(TObject *Sender);
 	void __fastcall Button4Click(TObject *Sender);
-	void __fastcall TcpClient1Receive(TObject *Sender, PChar Buf, int &DataLen);
+
 
 private:	// User declarations
 	MyThread *tth;

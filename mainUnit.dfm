@@ -51,7 +51,7 @@ object Form1: TForm1
   end
   object Button3: TButton
     Left = 34
-    Top = 200
+    Top = 176
     Width = 75
     Height = 25
     Caption = 'Connect'
@@ -68,8 +68,8 @@ object Form1: TForm1
     TabOrder = 4
   end
   object Button4: TButton
-    Left = 144
-    Top = 200
+    Left = 34
+    Top = 207
     Width = 75
     Height = 25
     Caption = 'Send'
@@ -79,7 +79,6 @@ object Form1: TForm1
   object TcpClient1: TTcpClient
     RemoteHost = '192.168.0.238'
     RemotePort = '23'
-    OnReceive = TcpClient1Receive
     Left = 240
     Top = 32
   end

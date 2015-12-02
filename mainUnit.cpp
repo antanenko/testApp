@@ -67,11 +67,3 @@ void __fastcall TForm1::Button4Click(TObject *Sender)
 }
 //---------------------------------------------------------------------------
 
-
-void __fastcall TForm1::TcpClient1Receive(TObject *Sender, PChar Buf, int &DataLen)
-{
-   char buf[128];
-   TcpClient1->ReceiveBuf(buf,20,0);
-}
-//---------------------------------------------------------------------------
-
